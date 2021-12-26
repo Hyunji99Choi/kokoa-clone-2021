@@ -22,7 +22,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media (orientation: landscape) {
   #no-landscape {
     position: fixed;
 
