@@ -38,3 +38,9 @@
     font-weight: 600;
   }
 }
+
+@media (orientation: portrait) {
+  #no-landscape {
+    display: none;
+  }
+}
