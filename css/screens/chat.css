@@ -102,8 +102,39 @@
   margin-right: 0px;
   margin-left: 5px;
 }
+
+@keyframes ownMsgAnimation {
+  0% {
+    opacity: 0;
+    transform: none;
+  }
+  1% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .message-row--own .message__info {
+  opacity: 0;
   flex-direction: row-reverse;
+  animation: ownMsgAnimation 1s ease-in-out forwards;
+}
+
+.message-row--own:nth-child(2) .message__info {
+  animation-delay: 1s;
+}
+.message-row--own:nth-child(3) .message__info {
+  animation-delay: 2s;
+}
+.message-row--own:nth-child(4) .message__info {
+  animation-delay: 3s;
+}
+.message-row--own:nth-child(5) .message__info {
+  animation-delay: 1s;
 }
 
 .reply {
