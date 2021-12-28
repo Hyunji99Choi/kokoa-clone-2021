@@ -38,8 +38,6 @@ Nomadcoder 챌린지는 2주 동안 완강을 목표로 매일매일 진도에 �
 
 ##### <cite>setting html은 more에서 톱니(cog) 버튼을 통해 이동할 수 있다.</cite>
 
-<br>
-
 ---
 
 ### [졸업 작품](https://hyunji99choi.github.io/kokoa-clone-2021/)
