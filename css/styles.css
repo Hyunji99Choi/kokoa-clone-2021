@@ -26,6 +26,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
 .main-screen {
   padding: 0 var(--horizontal-space);
 }
