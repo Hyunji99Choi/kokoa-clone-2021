@@ -29,3 +29,7 @@ body {
 .main-screen {
   padding: 0 var(--horizontal-space);
 }
+
+footer {
+  margin-bottom: 100px;
+}

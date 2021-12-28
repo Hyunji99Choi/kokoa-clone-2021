@@ -66,14 +66,10 @@
   color: var(--main-gray);
 }
 
-.friends_mymulti:first-child + .user-component__text {
+.friends_mymulti__text {
   width: 80%;
 }
-.friends_mymulti__text {
+.friends_mymulti__title {
   font-size: 18px;
   line-height: 1.5;
-}
-
-footer {
-  margin-bottom: 100px;
 }
