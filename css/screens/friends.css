@@ -52,6 +52,8 @@
 
   animation: hideSplashScreen 0.6s ease-in-out forwards;
   animation-delay: 1s;
+
+  z-index: 100;
 }
 
 .friends_mymulti {
